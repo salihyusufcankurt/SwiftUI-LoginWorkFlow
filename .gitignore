@@ -5,7 +5,7 @@
 
 # Xcode User settings
 xcuserdata/
-
+*.xcuserstate
 # Swift Package Manager
 Packages/
 Package.resolved
