@@ -1,5 +1,34 @@
 
-SwiftUILoginWorkFlow/Assets.xcassets/.DS_Store
-SwiftUILoginWorkFlow/.DS_Store
+# OS X temporary files
 .DS_Store
-SwiftUILoginWorkFlow.xcodeproj/project.xcworkspace/xcuserdata
+.Trashes
+
+# Xcode User settings
+xcuserdata/
+
+# Swift Package Manager
+Packages/
+Package.resolved
+.swiftpm
+
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+timeline.xctimeline
+playground.xcworkspace
+.build/
+Carthage/Build
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
