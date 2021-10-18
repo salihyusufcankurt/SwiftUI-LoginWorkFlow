@@ -70,6 +70,7 @@
 				09E7F5F427197894009C1449 /* Service */,
 				09E7F5F32719788A009C1449 /* Model */,
 				09E7F5F22719787E009C1449 /* View */,
+				09E7F60F271D8FF6009C1449 /* ViewModel */,
 				09E7F5E62719784D009C1449 /* Assets.xcassets */,
 				09E7F5EB2719784D009C1449 /* Info.plist */,
 				09E7F5E82719784D009C1449 /* Preview Content */,
@@ -89,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				09E7F60527197CAB009C1449 /* LoginView.swift */,
-				09E7F60227197BA0009C1449 /* LoginViewModel.swift */,
 				09E7F5E42719784C009C1449 /* ContentView.swift */,
 			);
 			path = View;
@@ -117,6 +117,14 @@
 				09E7F5FD27197B2B009C1449 /* UIApplication+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		09E7F60F271D8FF6009C1449 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				09E7F60227197BA0009C1449 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
