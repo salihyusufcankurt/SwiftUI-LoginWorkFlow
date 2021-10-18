@@ -17,13 +17,11 @@ struct ContentView: View {
                         .resizable()
                         .frame(width: 35.0, height: 35.0)
                         .foregroundColor(.gray)
-//                        .padding(.all, 5)
                     Text("You are in!")
                         .foregroundColor(.gray)
                 }
                 Spacer()
             }
-//            .padding()
             .toolbar{
                 ToolbarItem(placement: .navigationBarTrailing){
                     Button("Log out"){

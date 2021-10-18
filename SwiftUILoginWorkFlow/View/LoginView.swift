@@ -28,7 +28,6 @@ struct LoginView: View {
                     authentication.updateValidation(success: success)
                 }
             }
-//            .foregroundColor(.blue)
             .disabled(loginVM.loginDisabled)
             .padding(.all, 20)
             Spacer()
@@ -41,6 +40,9 @@ struct LoginView: View {
         .textFieldStyle(RoundedBorderTextFieldStyle())
         .padding()
         .disabled(loginVM.showProgressView)
+        .alert(item: $loginVM.error) { error in
+            Alert(title: Text("Invalid Login"), message: Text(error.localizedDescription))
+        }
     }
 }
 
